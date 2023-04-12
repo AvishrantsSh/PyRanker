@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.vscode
+env
+*.json
+src/tmp.py
+src/gen.py
+include
+
+# environment
+bin
+lib
+lib64
+share
+pyvenv.cfg
