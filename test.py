@@ -25,16 +25,16 @@ def precision_recall_curve(rel_docs, return_docs):
     return precision, recall
 
 def test():
-    with open('test/sample_docs.txt') as f:
+    with open('tests/sample_docs.txt') as f:
         CORPUS = f.readlines()
 
-    QUERY = "machine predictions"
+    QUERY = "machine learning algorithm"
     bm_ranker = BM25Ranker(CORPUS)
-    bm_rank, bm_score = bm_ranker.get_top_n(QUERY, prune=2, n=5)
+    bm_rank, bm_score = bm_ranker.get_top_n(QUERY, prune=0.5, n=7)
     print("BM25 Ranking: ", bm_rank, bm_score)
 
     # Compute precision and recall values for different cutoff points
-    rel_docs = [2, 12, 18, 21]
+    rel_docs = [10, 13, 14, 16, 17 ,18, 19]
     precision, recall = precision_recall_curve(rel_docs, bm_rank)
     plt.plot(recall, precision, "-o")
     plt.xlabel('Recall')

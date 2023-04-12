@@ -33,13 +33,14 @@ class BM25Ranker(TfIdfWeighter):
         score = np.zeros(self.corpus_size)
         avg_dl = sum(self.doc_len) / self.corpus_size
         for word in self.tokenizer(query):
-            if self.idf.get(word, 0) >= prune:
-                q_freq = np.array([doc.get(word, 0) for doc in self.doc_freqs])
-                score += self.idf.get(word, 0) * (
-                    q_freq
-                    * (self.k1 + 1)
-                    / (q_freq + self.k1 * (1 - self.b + self.b * self.doc_len / avg_dl))
-                )
+            if self.idf.get(word, 0) < prune:
+                continue
+            q_freq = np.array([doc.get(word, 0) for doc in self.doc_freqs])
+            score += self.idf.get(word, 0) * (
+                q_freq
+                * (self.k1 + 1)
+                / (q_freq + self.k1 * (1 - self.b + self.b * self.doc_len / avg_dl))
+            )
         return score
 
     def get_top_n(self, query, prune=0, n=5):

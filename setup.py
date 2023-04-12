@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pyranker",
-    version="0.0.1",
+    version="0.1.2",
     author="AvishrantSh (Avishrant Sharma)",
     author_email="<avishrants@gmail.com>",
     description="A Python based package consisiting of BM25 and\

@@ -1,5 +1,5 @@
 Artificial intelligence is changing the way we live our lives
-The future of artificial intelligence: 5 ways AI will change your life
+The future of artificial intelligence: 5 ways AI will change your life big time
 Artificial intelligence could help predict when patients are at risk of developing Alzheimer's
 Google's artificial intelligence can now lip read better than humans
 How artificial intelligence can improve healthcare outcomes
@@ -8,14 +8,14 @@ Artificial intelligence in banking: Changing the way we manage our money
 The future of work: How artificial intelligence will transform the workplace
 Using artificial intelligence to improve customer experience in e-commerce
 Artificial intelligence in education: A game changer for teachers and students
-A beginner's guide to machine learning algorithms
-How to choose the right machine learning algorithm for your problem
-The 10 most popular machine learning algorithms
-The impact of machine learning algorithms on financial markets
+A beginner's guide to machine learning
+How to choose the right learning strategy for your problem
+The 10 most useful learning tricks to operate machines
+The impact of machine learning on financial markets
 Improving accuracy of machine learning algorithms through data pre-processing
-The ethics of machine learning algorithms: Bias and fairness
-How machine learning algorithms are being used to predict diseases
-Exploring unsupervised machine learning algorithms for anomaly detection
+The ethics of learning to work on machine: Bias and fairness
+How machine learning is being used to predict big diseases
+Exploring unsupervised machine learning for anomaly detection
 Applying machine learning algorithms to customer churn prediction
 A comparison of supervised and unsupervised machine learning algorithms for fraud detection
 The basics of big data analytics: What you need to know
@@ -24,7 +24,7 @@ How big data analytics is changing the healthcare industry
 Big data analytics in finance: Opportunities and challenges
 The role of big data analytics in supply chain management
 The ethics of big data analytics: Privacy, security, and transparency
-Using big data analytics to improve customer experience in retail
+Using big data analytics to improve machine life expectancy
 Big data analytics for social media marketing: Opportunities and challenges
 Applying big data analytics to predict and prevent fraud in insurance
 The impact of big data analytics on decision-making in government agencies
