@@ -1,5 +1,6 @@
 import numpy as np
-from preprocessing.tokenizer import tokenize
+
+from pyranker.preprocessing.tokenizer import tokenize
 
 from . import TfIdfWeighter
 

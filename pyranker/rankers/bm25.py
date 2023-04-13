@@ -1,4 +1,5 @@
 import numpy as np
+
 from pyranker.preprocessing.tokenizer import tokenize
 
 from . import TfIdfWeighter
@@ -41,9 +42,12 @@ class BM25Ranker(TfIdfWeighter):
                 * (self.k1 + 1)
                 / (q_freq + self.k1 * (1 - self.b + self.b * self.doc_len / avg_dl))
             )
+
+        if score.sum() == 0:
+            raise ValueError("Either query is empty or all words are pruned")
         return score
 
-    def get_top_n(self, query, prune=0, n=5):
+    def get_top_n(self, query, n=5, prune=0):
         """
         Get top n documents ranked by tf-idf
         """

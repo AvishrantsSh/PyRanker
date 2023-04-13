@@ -27,4 +27,4 @@ The ethics of big data analytics: Privacy, security, and transparency
 Using big data analytics to improve machine life expectancy
 Big data analytics for social media marketing: Opportunities and challenges
 Applying big data analytics to predict and prevent fraud in insurance
-The impact of big data analytics on decision-making in government agencies
+Impact of big data analytics on decision-making in government agencies

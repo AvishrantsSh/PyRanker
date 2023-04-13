@@ -37,8 +37,8 @@ class TfIdfWeighter:
                 self.word_freq[word] = 1
 
     def _tokenize_corpus(self, corpus):
-        with Pool(cpu_count()) as pool:
-            yield from pool.imap(self.tokenizer, corpus, chunksize=1000)
+        for doc in corpus:
+            yield self.tokenizer(doc)
 
     def _calc_idf(self):
         """

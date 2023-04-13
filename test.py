@@ -26,7 +26,7 @@ def precision_recall_curve(rel_docs, return_docs):
 
 def test():
     with open('tests/sample_docs.txt') as f:
-        CORPUS = f.readlines()
+        CORPUS = f.read().splitlines()
 
     QUERY = "machine learning algorithm"
     bm_ranker = BM25Ranker(CORPUS)
